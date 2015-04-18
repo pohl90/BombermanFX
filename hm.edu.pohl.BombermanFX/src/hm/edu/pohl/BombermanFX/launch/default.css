@@ -1,0 +1,49 @@
+.icons {
+    -fx-font-family: FontAwesome;
+    -fx-effect: dropshadow(three-pass-box, derive(black, 20%), 10, 0, 4, 4); 
+}
+
+.audio-viewer {
+	-fx-padding: 10 10 5 10;
+	-fx-background-color: transparent;
+}
+
+.b-tool-bar {
+	-fx-background-color: transparent;
+}
+
+.b-tool-bar .button {
+	-fx-background-color: transparent;
+}
+
+.base-screen {
+	-fx-background-color: white;
+}
+
+.base-screen .b-tool-bar .icons {
+	-fx-text-fill: rgb(60,60,60);
+}
+
+.base-screen .b-tool-bar .icons:hover {
+	-fx-text-fill: derive(rgb(30,30,30), -20%);
+}
+
+.base-screen .b-tool-bar .icons:pressed {
+	-fx-text-fill: derive(rgb(30,30,30), 40%);
+}
+
+.base-screen:game-mode .b-tool-bar .icons {
+	-fx-text-fill: rgb(240,240,240);
+}
+
+.base-screen:game-mode .b-tool-bar .icons:hover {
+	-fx-text-fill: derive(rgb(240,240,240), -20%);
+}
+
+.base-screen:game-mode .b-tool-bar .icons:pressed {
+	-fx-text-fill: derive(rgb(240,240,240), 40%);
+}
+
+.base-screen:game-mode {
+	-fx-background-color: black;
+}
