@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<StackPane fx:id="audioViewer" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.hm.pohl.BombermanFX.ui.audio.AudioViewerController">
+	<HBox fx:id="rootBox" spacing="10" alignment="CENTER">
+		<Label fx:id="title"/>
+		<HBox fx:id="audioBox" alignment="CENTER">
+			<Button fx:id="startMusic" />
+			<Button fx:id="stopMusic" />
+			<Slider fx:id="volumeSlider" />
+		</HBox>
+	</HBox>
+</StackPane>
+

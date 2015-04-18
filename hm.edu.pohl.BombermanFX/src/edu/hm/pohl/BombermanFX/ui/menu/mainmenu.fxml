@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+
+<VBox fx:id="rootBox" alignment="CENTER" spacing="10" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.hm.pohl.BombermanFX.ui.menu.MainMenuController">
+	<Button text="Start" fx:id="startButton" minWidth="250"/>
+	<Button text="Options" fx:id="optionsButton" minWidth="250"/>
+	<Button text="Exit" fx:id="exitButton" minWidth="250"/>
+</VBox>
+
