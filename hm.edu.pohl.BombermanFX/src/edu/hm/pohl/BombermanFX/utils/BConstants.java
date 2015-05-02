@@ -5,7 +5,7 @@ import javafx.beans.property.SimpleDoubleProperty;
 
 public class BConstants {
 
-    public static final DoubleProperty volumeProperty = new SimpleDoubleProperty(0.15);
+    public static final DoubleProperty volumeProperty = new SimpleDoubleProperty(0.0);
 
     public static final long DRAW_ENGINE_MODIFIER = 10;
     public static final long PHYSICS_ENGINE_MODIFIER = 10;
